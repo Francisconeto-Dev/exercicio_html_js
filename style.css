@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 10px 10px;
+    background-color: hsl(160, 100%, 82%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+form{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    gap: 4px;
+}
+label{
+    display: flex;
+    width: 80px;
+    text-align: left;
+
+}
+
+input, button{
+    padding: 5px;
+    border-radius: 5px ;
+    flex: 1;
+   
+    
+}
+
+
+button{
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 85%);
+}
+button:active{
+    background-color: hsl(0, 0%, 75%);
+}
+#sucess-message{
+    background-color: hsl(115, 60%, 59%);
+    color: rgb(255, 255, 255);
+    width: 350px;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+#error-message{
+    background-color: hsl(0, 100%, 50%);
+    color: rgb(255, 255, 255);
+    width: 350px;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 10px;
+
+}
